@@ -1,0 +1,1 @@
+SELECT AVG("height") AS "average" FROM "players" WHERE "birth_state" = 'CA' ORDER BY "first_name";
