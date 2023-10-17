@@ -1,0 +1,1 @@
+SELECT * FROM "episodes" WHERE ("season" = 5 OR "season" = 6) AND "topic" LIKE '%mathematics%' AND strftime('%Y', air_date) != '2007';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM "episodes" WHERE strftime('%Y', air_date) BETWEEN '2018' AND '2023';
