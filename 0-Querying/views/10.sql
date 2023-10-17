@@ -1,0 +1,1 @@
+SELECT "english_title" AS "en_tit" FROM "views" WHERE "artist" = 'Hokusai' ORDER BY "entropy" LIMIT 10;
